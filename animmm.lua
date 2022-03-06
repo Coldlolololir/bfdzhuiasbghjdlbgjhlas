@@ -8,7 +8,7 @@ local Players = game:GetService('Players')
 local Animate = Players.LocalPlayer.Character.Animate
 --Properties:
 
-ScreenGui.Parent = game.CoreGui:WaitForChild("RobloxGui")
+ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 TextButton.Parent = ScreenGui
